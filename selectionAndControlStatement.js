@@ -89,10 +89,10 @@ function outer(){
     q=20;
     function inner(){
         var r=10;
-        console.log(q,r);
+        console.log(q,r);              //inner->outer
     }
     inner();
 }
 
 outer();
-console.log(q);
+console.log(q);   //updated value.

@@ -20,3 +20,5 @@ let replaceWord="Pune";
 
 console.log(s4.search(keyword));
 console.log(s4.replace(keyword,replaceWord));
+
+

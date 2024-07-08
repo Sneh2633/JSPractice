@@ -40,3 +40,5 @@ let cartTotal=products.reduce((total,product)=>{
 },0);
 
 console.log(cartTotal);
+
+//some,every.
